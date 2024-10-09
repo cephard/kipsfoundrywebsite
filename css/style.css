@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/*header*/
+#topHeader {
+    /*background-color: ghostwhite;*/
+    border-bottom: 1px solid #ebebeb;
+}
+
+#topHeader a {
+    color: #2c3e50;
+    font-size: 0.89rem;
+    font-weight: 600;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.custom-navbar {
+    background-color: #3f718d;
+}
+
+nav ul li a {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/*end header*/
+
+
+/*footer*/
+.full-footer {
+    background-color: #3f718d;
+    /* position:absolute; /*meaning i can place the footer anywhere i want*/
+    bottom: 0;
+    width: 100%;
+}
+
+.socials a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.2rem;
+}
+
+.socials a:hover {
+    color: #1d4f5b;
+    text-decoration: none;
+}
+
+.top-footer p {
+    color: white;
+}
+
+.top-footer a {
+    color: white;
+    font-weight: 600;
+}
+.top-footer h3{
+    color: white;
+}
+
+
+.bottom-footer {
+    background-color: #2c3e50;
+    margin: 0;
+}
+
+.bottom-footer p {
+    color: white;
+}
+
+#bottom-footer {
+    width: 100%;
+}
+
+
+
+/*footer end*/
