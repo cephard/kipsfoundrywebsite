@@ -50,6 +50,16 @@ nav ul li a {
     font-size: 1rem;
     font-weight: 500;
 }
+.navbar-nav .nav-link {
+    position: relative; /* Position relative for pseudo-element */
+    text-decoration: none; /* Remove default underline */
+    color: black; /* Default text color */
+    transition: color 0.3s; /* Smooth transition for text color */
+}
+
+
+
+
 
 /*end header*/
 
@@ -120,4 +130,13 @@ nav ul li a {
 
 .second-hero-section img:hover {
     transform: scale(1.05);
+}
+
+/*end of hero*/
+
+/*start of home*/
+
+.requirements-section{
+    background-color: #3f718d;
+    color: #ffffff;
 }
