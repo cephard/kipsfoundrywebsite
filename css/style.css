@@ -4,12 +4,17 @@
     padding: 0;
 }
 
-html, body {
+html,
+body {
     overflow-x: hidden;
     width: 100%;
 }
 
 /*header*/
+header {
+    height: 20vh;
+}
+
 #topHeader {
     /*background-color: ghostwhite;*/
     border-bottom: 1px solid #ebebeb;
@@ -19,6 +24,16 @@ html, body {
     color: #2c3e50;
     font-size: 0.89rem;
     font-weight: 600;
+}
+
+#bottomHeader {
+    flex-grow: 1;
+    /* Allow the bottom header to fill the remaining space */
+    display: flex;
+    /* Ensure the navbar is a flex container */
+    align-items: center;
+    /* Center the navbar content vertically */
+    background-color: #3f718d;
 }
 
 .container-fluid {
@@ -67,7 +82,8 @@ nav ul li a {
     color: white;
     font-weight: 600;
 }
-.top-footer h3{
+
+.top-footer h3 {
     color: white;
 }
 
@@ -85,6 +101,23 @@ nav ul li a {
     width: 100%;
 }
 
-
-
 /*footer end*/
+
+
+/*hero section*/
+
+.first-hero-section {
+    height: 80vh;
+}
+
+.second-hero-section img {
+    max-width: 80%;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.second-hero-section img:hover {
+    transform: scale(1.05);
+}
