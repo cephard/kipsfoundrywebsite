@@ -50,11 +50,16 @@ nav ul li a {
     font-size: 1rem;
     font-weight: 500;
 }
+
 .navbar-nav .nav-link {
-    position: relative; /* Position relative for pseudo-element */
-    text-decoration: none; /* Remove default underline */
-    color: black; /* Default text color */
-    transition: color 0.3s; /* Smooth transition for text color */
+    position: relative;
+    /* Position relative for pseudo-element */
+    text-decoration: none;
+    /* Remove default underline */
+    color: black;
+    /* Default text color */
+    transition: color 0.3s;
+    /* Smooth transition for text color */
 }
 
 
@@ -136,7 +141,60 @@ nav ul li a {
 
 /*start of home*/
 
-.requirements-section{
+.requirements-section {
     background-color: #3f718d;
     color: #ffffff;
+}
+
+.subscribe-section {
+    background-color: #3f718d;
+    color: #ffffff;
+}
+
+.subscribe-section .form-control {
+    height: 50px;
+    border-bottom: transparent;
+    border-radius: 20px 0 0 20px;
+}
+
+.subscribe-section .btn {
+    min-height: 50px;
+    border-radius: 0 20px 20px 0;
+}
+
+.services-section img {
+    max-width: 80%;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.services-section img:hover {
+    transform: scale(1.05);
+}
+
+.testimonial-section {
+    background-color: #597a8e1f;
+    color: black;
+}
+
+
+#carouselControl {
+    align-items: center;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 100px;
+}
+
+.carousel-captions {
+    left: 0; /* Aligns the caption to the left */
+    right: auto; /* Prevents it from stretching to the right */
+    text-align: left; /* Ensures text is left-aligned */
+    padding: 0 15px; /* Optional: Adds some padding to the caption */
+    color: black;
+    align-items: center;
 }
