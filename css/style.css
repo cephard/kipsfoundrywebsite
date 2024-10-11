@@ -185,16 +185,27 @@ nav ul li a {
 }
 
 
-.carousel-control-prev,
+#carousel-control-prev,
 .carousel-control-next {
     width: 100px;
+    color: #3f718d;
 }
 
 .carousel-captions {
-    left: 0; /* Aligns the caption to the left */
-    right: auto; /* Prevents it from stretching to the right */
-    text-align: left; /* Ensures text is left-aligned */
-    padding: 0 15px; /* Optional: Adds some padding to the caption */
+    left: 0;
+    /* Aligns the caption to the left */
+    right: auto;
+    /* Prevents it from stretching to the right */
+    text-align: left;
+    /* Ensures text is left-aligned */
+    padding: 0 15px;
+    /* Optional: Adds some padding to the caption */
     color: black;
     align-items: center;
+}
+
+.carousel-captions h5,
+.carousel-captions h6 {
+    color: #3f718d;
+    ;
 }
