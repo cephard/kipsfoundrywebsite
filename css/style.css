@@ -136,7 +136,7 @@ nav ul li a {
 }
 
 @media (max-width: 991.98px) {
-    .navbar-collapse.show+.first-hero-section {
+    .navbar-collapse.show + .first-hero-section {
         margin-top: 200px;
     }
 }
@@ -220,3 +220,5 @@ nav ul li a {
 .about-us-detail h3 {
     color: #3f718d
 }
+
+
