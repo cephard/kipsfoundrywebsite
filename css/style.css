@@ -249,23 +249,14 @@ nav ul li a {
     color: #3f718d;
 }
 
-.checkmark {}
-
-/* Default font size for larger screens */
 .form-group {
-    font-size: 16px;
+    font-size: clamp(10px, calc(16px + (24 - 16) * (100vw - 768px) / (1920 - 768)), 16px);
 }
 
-/* For small screens (tablets and mobile devices) */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .form-group {
-        font-size: 14px;
+        font-size: 16px; /* Fixed size for laptops and larger screens */
     }
 }
 
-/* For very small screens (mobile phones) */
-@media (max-width: 480px) {
-    .form-group {
-        font-size: 12px;
-    }
-}
+
