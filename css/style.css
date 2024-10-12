@@ -135,6 +135,12 @@ nav ul li a {
     transform: scale(1.05);
 }
 
+@media (max-width: 991.98px) {
+    .navbar-collapse.show+.first-hero-section {
+        margin-top: 200px;
+    }
+}
+
 /*end of hero*/
 
 /*start of home*/
@@ -202,7 +208,15 @@ nav ul li a {
 }
 
 /*about us page*/
-.breadcrumbs-section{
+.breadcrumbs-section {
     background-color: #3f718d;
     color: #ffffff;
+}
+
+#stats {
+    color: #2c3e50;
+}
+
+.about-us-detail h3 {
+    color: #3f718d
 }
