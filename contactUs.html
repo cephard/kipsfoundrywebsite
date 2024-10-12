@@ -13,14 +13,12 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/gridstyle.css">
 
-    <title>contactUs</title>
+    <title>aboutUs</title>
 </head>
 
 <body>
-
-
     <!---header section-->
-    <header>
+    <header class="d-flex flex-column">
         <!--p for padding m for margin, the range is between 1 to 5  pd for bottom pt for top pl for left pr for right-->
         <div class="p-1" id="topHeader">
             <div class="container">
@@ -38,7 +36,7 @@
             <div class="container-fluid">
                 <nav class="navbar navbar-dark custom-navbar navbar-expand-lg">
                     <a class="navbar-brand  mx-auto" href="#">
-                        <img src="images/logo1nbg.png" class="image" width="150rem">
+                        <img src="images/logo1nbg.png" class="image pr-4" width="150rem">
                     </a>
                     <button data-toggle="collapse" data-target="#navbarToggler" type="button"
                         class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
@@ -74,12 +72,89 @@
                             </li>
                         </ul>
                     </div>
-
-
                 </nav>
             </div>
         </div>
     </header>
+
+
+
+    <section class="breadcrumbs-section p-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h1>Contact us today!</h1>
+                    <p>It is as easy as clicking a button</p>
+                    <ol class="breadcrumb" style="background-color: #3f718d;" style="color: #00a2ff;">
+                        <li class="breadcrumb-item">
+                            <a href="index.html" style="color: #00a2ff;">Home</a>
+                        </li>
+                        <li class="breadcrumb-item" active style="color: #ffffff;">Contact Us</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-us py-5">
+        <div class="container">
+            <form action="">
+                <div class="row text-center">
+                    <div class="col-lg-6">
+                        <div class="conatct-info text-left">
+                            <h3>Do you have a pressing issue that you need to talk to us about?</h3>
+
+                            <div class="highlight pt-2">
+                                <p>No issue is too small for us. <br> Regardless of the time, send us a message and our
+                                    team
+                                    will make sure to respond within 12hrs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 align-items-center">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <input type="name" name="name" class="form-control" id="conatct-name"
+                                    placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="email" name="email" class="form-control" id="conatct-email"
+                                    placeholder="Your email" required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <input type="text" name="subject" class="form-control" id="conatct-subject"
+                                    placeholder="Your Subject" required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <textarea name="message" class="form-control" id="conatct-message"
+                                    placeholder="Your Subject" rows="10" required></textarea>
+                            </div>
+
+
+                            <div class="form-group col-12 input-group-prepend input-group mb-3">
+
+                                <input type="checkbox" aria-label="Checkbox for following text input">
+
+                                <span class="checkmark"></span>
+                                <span class="ml-2">I have read and accept <a href="#">kipsfoundry privacy
+                                        policy</a>.</span>
+                            </div>
+
+
+
+                            <div class="col-md-12 text-left">
+                                <button class="btn btn-lg" style="color: #ffffff; background-color: #ee16b1;"
+                                    type="submit">Submit</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
 
 
     <!----footer section-->
@@ -87,7 +162,7 @@
         <div class="container top-footer p-md-3 p-1">
             <div class="row">
                 <div class="col-md-3 pl-4 pr-4">
-                    <img class="img-fluid" src="images/logo1nbg.png" alt="Logo"  width="100rem">
+                    <img class="img-fluid" src="images/logo1nbg.png" alt="Logo" width="100rem">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <a href="#">Read
                             more..</a></p>
 
@@ -111,7 +186,8 @@
                 </div>
                 <div class="col-md-3 pl-4 pr-4">
                     <h3>Contact Us</h3>
-                    <a class="p-1" href="tel:+254703988783"><i class="fa-solid fa-phone mx-2"></i> +254703988783</a> <br>
+                    <a class="p-1" href="tel:+254703988783"><i class="fa-solid fa-phone mx-2"></i> +254703988783</a>
+                    <br>
                     <a class="p-1" href="mailto:cephkip@gmail.com"><i class="fa-solid fa-envelope mx-2"></i>
                         cephkip@gmail.com</a><br>
 
