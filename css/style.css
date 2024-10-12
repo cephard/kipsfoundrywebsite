@@ -136,7 +136,7 @@ nav ul li a {
 }
 
 @media (max-width: 991.98px) {
-    .navbar-collapse.show + .first-hero-section {
+    .navbar-collapse.show+.first-hero-section {
         margin-top: 200px;
     }
 }
@@ -207,6 +207,11 @@ nav ul li a {
     ;
 }
 
+.testimonial-section img {
+    border-radius: 50%;
+
+}
+
 /*about us page*/
 .breadcrumbs-section {
     background-color: #3f718d;
@@ -218,7 +223,23 @@ nav ul li a {
 }
 
 .about-us-detail h3 {
-    color: #3f718d
+    color: #3f718d;
 }
 
+.manifesto-and-values img {
+    width: 25%;
+    padding-bottom: 10px;
+}
 
+.manifesto-and-values h5 {
+    color: #3f718d;
+}
+
+.our-team-section img {
+    width: 100%;
+    align-self:center;
+}
+
+.our-team-section p {
+    color: #ee16b1;
+}
