@@ -17,10 +17,8 @@
 </head>
 
 <body>
-
-
     <!---header section-->
-    <header>
+    <header class="d-flex flex-column">
         <!--p for padding m for margin, the range is between 1 to 5  pd for bottom pt for top pl for left pr for right-->
         <div class="p-1" id="topHeader">
             <div class="container">
@@ -38,7 +36,7 @@
             <div class="container-fluid">
                 <nav class="navbar navbar-dark custom-navbar navbar-expand-lg">
                     <a class="navbar-brand  mx-auto" href="#">
-                        <img src="images/logo1nbg.png" class="image" width="150rem">
+                        <img src="images/logo1nbg.png" class="image pr-4" width="150rem">
                     </a>
                     <button data-toggle="collapse" data-target="#navbarToggler" type="button"
                         class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
@@ -81,16 +79,73 @@
         </div>
     </header>
 
+    <section class="breadcrumbs-section p-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h1>About us</h1>
+                    <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda
+                        numquam molestias.</p>
+                    <ol class="breadcrumb" style="background-color: #3f718d;" style="color: #00a2ff;">
+                        <li class="breadcrumb-item">
+                            <a href="index.html" style="color: #00a2ff;">Home</a>
+                        </li>
+                        <li class="breadcrumb-item" active style="color: #ffffff;">About Us</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us-detail py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 py-2"><img src="images/stock1.jpg" alt="" class="img-fluid"></div>
+                <div class="col-lg-6">
+                    <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit.
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stats" class="stats-section" style="background-color: #597a8e1f;">
+        <div class="container">
+            <div class="row p-4">
+                <div class="col-lg-6">
+                    <div class="row p-2">
+                        <div class="col-6 text-center"><h3>1</h3></div>
+                        <div class="col-6 text-center"><h3>2</h3></div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row p-2">
+                        <div class="col-6 text-center"><h3>3</h3></div>
+                        <div class="col-6 text-center"><h3>4</h3></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
     <!----footer section-->
     <footer class="full-footer">
         <div class="container top-footer p-md-3 p-1">
             <div class="row">
                 <div class="col-md-3 pl-4 pr-4">
-                    <img class="img-fluid" src="images/logo1nbg.png" alt="Logo"  width="100rem">
+                    <img class="img-fluid" src="images/logo1nbg.png" alt="Logo" width="100rem">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <a href="#">Read
                             more..</a></p>
-
                 </div>
                 <div class="col-md-3 pl-4 pr-4">
                     <h3>Important Links</h3>
@@ -111,7 +166,8 @@
                 </div>
                 <div class="col-md-3 pl-4 pr-4">
                     <h3>Contact Us</h3>
-                    <a class="p-1" href="tel:+254703988783"><i class="fa-solid fa-phone mx-2"></i> +254703988783</a> <br>
+                    <a class="p-1" href="tel:+254703988783"><i class="fa-solid fa-phone mx-2"></i> +254703988783</a>
+                    <br>
                     <a class="p-1" href="mailto:cephkip@gmail.com"><i class="fa-solid fa-envelope mx-2"></i>
                         cephkip@gmail.com</a><br>
 
@@ -130,18 +186,18 @@
 
         </div>
 
-    </footer>
 
-    <div class="container-fluid bottom-footer pt-2">
-        <div class="row">
-            <div class="col-12 text-center">
-                <p>
-                <p>KIPSFOUNDRY 2024 &copy;. All rights reserved.</p>
-                </p>
+
+        <div class="container-fluid bottom-footer pt-2">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>
+                    <p>KIPSFOUNDRY 2024 &copy;. All rights reserved.</p>
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
-
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
