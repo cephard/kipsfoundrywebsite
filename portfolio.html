@@ -1,153 +1,59 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <!-- View port is the user's visible area of the website-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="Boostrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/gridstyle.css">
-
-    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Message from API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        #message {
+            text-align: center;
+            margin: 20px auto;
+            font-size: 1.5em;
+            color: #333;
+        }
+    </style>
 </head>
-
 <body>
 
-
-    <!---header section-->
-    <header>
-        <!--p for padding m for margin, the range is between 1 to 5  pd for bottom pt for top pl for left pr for right-->
-        <div class="p-1" id="topHeader">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-right">
-                        <a class="p-1" href="tel:+254703988783"><i class="fa-solid fa-phone"></i> +254703988783</a>
-                        <a class="p-1" href="mailto:cephkip@gmail.com"><i class="fa-solid fa-envelope"></i>
-                            cephkip@gmail.com</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="bottomHeader">
-            <div class="container-fluid">
-                <nav class="navbar navbar-dark custom-navbar navbar-expand-lg">
-                    <a class="navbar-brand  mx-auto" href="#">
-                        <img src="images/logo1nbg.png" class="image" width="150rem">
-                    </a>
-                    <button data-toggle="collapse" data-target="#navbarToggler" type="button"
-                        class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
-
-                    <div class="collapse navbar-collapse" id="navbarToggler">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-                                    href="#">Services</a>
-                                <div class="dropdown-menu">
-                                    <a href="services/phonespairs.html" class="dropdown-item">Phone Spares</a>
-                                    <a href="services/phonerepair.html" class="dropdown-item">Phone Repair</a>
-                                    <a href="services/phoneaccessories.html" class="dropdown-item">Phone Accessories</a>
-                                    <a href="services/webdesign.html" class="dropdown-item">Phone Accessories</a>
-                                    <a href="services/otherservices.html" class="dropdown-item">Phone Accessories</a>
-
-                                    <div class="dropdown-divider"></div>
-                                    <a href="#" class="dropdown-item">Other Services</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="aboutUs.html">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contactUs.html">Contact Us</a>
-
-                            </li>
-                        </ul>
-                    </div>
-
-
-                </nav>
-            </div>
-        </div>
-    </header>
-
-
-    <!----footer section-->
-    <footer class="full-footer">
-        <div class="container top-footer p-md-3 p-1">
-            <div class="row">
-                <div class="col-md-3 pl-4 pr-4">
-                    <img class="img-fluid" src="images/logo1nbg.png" alt="Logo"  width="100rem">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <a href="#">Read
-                            more..</a></p>
-
-                </div>
-                <div class="col-md-3 pl-4 pr-4">
-                    <h3>Important Links</h3>
-                    <a href="">link 1</a> <br>
-                    <a href="">link 1</a> <br>
-                    <a href="">link 1</a> <br>
-                    <a href="">link 1</a> <br>
-
-                </div>
-                <div class="col-md-3 pl-4 pr-4">
-                    <h3>Our Services</h3>
-                    <a href="">link 1</a> <br>
-                    <a href="">link 1</a> <br>
-                    <a href="">link 1</a> <br>
-                    <a href="">link 1</a> <br>
-
-
-                </div>
-                <div class="col-md-3 pl-4 pr-4">
-                    <h3>Contact Us</h3>
-                    <a class="p-1" href="tel:+254703988783"><i class="fa-solid fa-phone mx-2"></i> +254703988783</a> <br>
-                    <a class="p-1" href="mailto:cephkip@gmail.com"><i class="fa-solid fa-envelope mx-2"></i>
-                        cephkip@gmail.com</a><br>
-
-                    <div class="socials">
-                        <a href="#"><i class="fa-brands fa-2x fa-facebook-f mx-2"></i></i></a>
-                        <a href="#"><i class="fa-brands fa-2x fa-x-twitter mx-2"></i></a>
-                        <a href="#"> <i class="fa-brands fa-2x fa-instagram mx-2"></i></a>
-                    </div>
-                    <div class="embed-responsive embed-responsive-16by9 embed-responsive-mt-5 mt-3 p-2">
-                        <iframe class="embed-responsive-item"
-                            src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4080.067954975282!2d34.99636082257824!3d1.0227116321531886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x178227aef28b1955%3A0xa912676d72f0e363!2sKIP&#39;SCOMM!5e0!3m2!1sen!2suk!4v1728480850111!5m2!1sen!2suk"
-                            frameborder="0"></iframe>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </footer>
-
-    <div class="container-fluid bottom-footer pt-2">
-        <div class="row">
-            <div class="col-12 text-center">
-                <p>
-                <p>KIPSFOUNDRY 2024 &copy;. All rights reserved.</p>
-                </p>
-            </div>
-        </div>
+    <h1>Message from API</h1>
+    <div id="message">
+        <!-- The message from the API will be displayed here -->
     </div>
 
+    <script>
+        // Define the API URL based on your launch settings
+        const apiUrl = 'http://localhost:5136/api/message'; // Change to HTTPS if needed
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="Boostrap/js/jquery-3.3.1.slim.min.js"></script>
-    <script src="Boostrap/js/popper.min.js"></script>
-    <script src="Boostrap/js/bootstrap.min.js"></script>
+        // Function to fetch the message from the API
+        async function fetchMessage() {
+            try {
+                const response = await fetch(apiUrl);
+                
+                // Check if the response is OK (status 200-299)
+                if (!response.ok) {
+                    throw new Error('Failed to fetch message');
+                }
+
+                // Parse the JSON response
+                const messageData = await response.json();
+
+                // Display the message in the HTML
+                document.getElementById('message').innerText = messageData.text;
+            } catch (error) {
+                console.error('Error fetching message:', error);
+                document.getElementById('message').innerText = 'Failed to load message. Please try again later.';
+            }
+        }
+
+        // Fetch the message when the page loads
+        fetchMessage();
+    </script>
+
 </body>
-
 </html>
