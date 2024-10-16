@@ -222,7 +222,10 @@ nav ul li a {
     color: #2c3e50;
 }
 
-.about-us-detail h3 {
+.about-us-detail h3,
+.about-section h3,
+.services-section h3,
+.testimonial-section h3 {
     color: #3f718d;
 }
 
