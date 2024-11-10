@@ -119,14 +119,17 @@ nav ul li a {
 
 .bottom-footer p {
     color: white;
+    font-size: clamp(0.2rem, 3vw, 1rem);
+
 }
 
 #bottom-footer {
     width: 100%;
 }
 
-#footer-logo{
-    font-size: clamp(0.2rem, 3vw, 1rem);
+#footer-logo {
+    max-width: clamp(150px, 10vw, 150px); /* Minimum 100px, scales with viewport, maximum 150px */
+    height: auto; /* Maintains aspect ratio */
 }
 
 /*footer end*/
