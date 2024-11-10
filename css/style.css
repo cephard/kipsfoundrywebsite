@@ -128,7 +128,7 @@ nav ul li a {
 }
 
 #footer-logo {
-    max-width: clamp(150px, 10vw, 150px); /* Minimum 100px, scales with viewport, maximum 150px */
+    max-width: clamp(100px, 12vw, 2000px); /* Minimum 100px, scales with viewport, maximum 150px */
     height: auto; /* Maintains aspect ratio */
 }
 
