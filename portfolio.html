@@ -8,15 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="Boostrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="css/gridstyle.css">
 
-    <title>portfolio</title>
+    <title>Portfolio</title>
 </head>
 
 <body>
+
+
     <!---header section-->
     <header class="d-flex flex-column">
         <!--p for padding m for margin, the range is between 1 to 5  pd for bottom pt for top pl for left pr for right-->
@@ -32,11 +34,11 @@
             </div>
         </div>
 
-        <div id="bottomHeader">
+        <div id="bottomHeader" class="flex-grow-1">
             <div class="container-fluid">
-                <nav class="navbar navbar-dark custom-navbar navbar-expand-lg">
+                <nav class="navbar navbar-dark custom-navbar navbar-expand-lg" style="z-index: 1000;">
                     <a class="navbar-brand  mx-auto" href="#">
-                        <img src="images/logo1nbg.png" class="image pr-4" width="150rem">
+                        <img src="images/logo1nbg.png" class="image pr-4" width="200rem">
                     </a>
                     <button data-toggle="collapse" data-target="#navbarToggler" type="button"
                         class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
@@ -79,66 +81,207 @@
         </div>
     </header>
 
-    <section class="breadcrumbs-section p-4">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-12">
-                    <h1>Our Portfolio</h1>
-                    <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda
-                        numquam molestias.</p>
-                    <ol class="breadcrumb" style="background-color: #3f718d;" style="color: #00a2ff;">
-                        <li class="breadcrumb-item">
-                            <a href="index.html" style="color: #00a2ff;">Home</a>
-                        </li>
-                        <li class="breadcrumb-item" active style="color: #ffffff;">Portfolio</li>
-                    </ol>
+    <!---end header-->
+
+<!--start hero section 1-->
+<section>
+    <div class="container-fluid first-hero-section pt-4 pt-5"
+        style="background-image: url('images/stock1.jpg'); background-size: cover; background-position: center; padding: 50px 0; display: flex;">
+        <div class="row align-items-center" style="flex-grow: 1;">
+            <div class="col-md-12 text-center text-white">
+                <h4>Quality support</h4>
+                <h5>best in IT service</h5><br>
+                <button style="color: #fff; background-color: #ee16b1;" class="btn btn-primary btn-lg">Get
+                    Started</button>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end hero section 1-->
+
+<!--start hero section 2-->
+<section class="second-hero-section">
+    <div class="container pt-4 pb-4">
+        <!-- Screens Section -->
+        <div class="row text-center">
+            <div class="col-12">
+                <h3 class="section-title">Screens</h3>
+                <hr class="section-divider">
+            </div>
+        </div>
+
+        <div class="row text-center pb-4">
+            <div class="col-md-3 col-6">
+                <img src="images/app-development.png" alt="LCD Screen">
+                <h5>LCD Screen</h5>
+                <p>High-quality LCD screens for all models.</p>
+            </div>
+            <div class="col-md-3 col-6">
+                <img src="images/repairing.png" alt="Touch Screen">
+                <h5>Touch Screen</h5>
+                <p>Responsive touch screens with durability.</p>
+            </div>
+            <div class="col-md-3 col-6">
+                <img src="images/smartphone.png" alt="Complete Screen">
+                <h5>Complete Screen</h5>
+                <p>Full display replacements for modern devices.</p>
+            </div>
+            <div class="col-md-3 col-6">
+                <img src="images/software.png" alt="Basic Phone Screen">
+                <h5>Basic Phone Screen</h5>
+                <p>Affordable screen replacements for basic phones.</p>
+            </div>
+        </div>
+
+        <!-- Batteries Section -->
+        <div class="row text-center">
+            <div class="col-12">
+                <h3 class="section-title">Batteries</h3>
+                <hr class="section-divider">
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-md-3 col-6">
+                <img src="images/software.png" alt="Removable Battery">
+                <h5>Removable Battery</h5>
+                <p>Easy-to-replace batteries for older models.</p>
+            </div>
+            <div class="col-md-3 col-6">
+                <img src="images/app-development.png" alt="Internal Battery">
+                <h5>Internal Battery</h5>
+                <p>Built-in batteries with high capacity.</p>
+            </div>
+            <div class="col-md-3 col-6">
+                <img src="images/app-development.png" alt="Modified Battery">
+                <h5>Modified Battery</h5>
+                <p>Custom high-performance battery options.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end hero section 2-->
+
+    
+<!--start services-->
+<section class="services-section py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h3 class="section-title">Accessories</h3>
+            <hr class="section-divider">
+        </div>
+        <div class="row g-4">
+            <div class="col-md-3 col-6 mb-5">
+                <div class="card h-100 text-center shadow-sm">
+                    <img src="images/charger.png" class="card-img-top" alt="Charger">
+                    <div class="card-body">
+                        <h5 class="card-title">Chargers</h5>
+                        <p class="card-text">Explore a variety of chargers for all devices.</p>
+                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-6 mb-5">
+                <div class="card h-100 text-center shadow-sm">
+                    <img src="images/earphones.png" class="card-img-top" alt="Earphones">
+                    <div class="card-body">
+                        <h5 class="card-title">Earphones</h5>
+                        <p class="card-text">Discover quality sound with our earphones.</p>
+                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-6 mb-5">
+                <div class="card h-100 text-center shadow-sm">
+                    <img src="images/usb-cable.png" class="card-img-top" alt="USB Cable">
+                    <div class="card-body">
+                        <h5 class="card-title">USB Cable</h5>
+                        <p class="card-text">Find the perfect USB cable for your needs.</p>
+                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-6 mb-5">
+                <div class="card h-100 text-center shadow-sm">
+                    <img src="images/adaptor.png" class="card-img-top" alt="Adaptor">
+                    <div class="card-body">
+                        <h5 class="card-title">Adaptors</h5>
+                        <p class="card-text">Adapters for seamless connectivity.</p>
+                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-6 mb-5">
+                <div class="card h-100 text-center shadow-sm">
+                    <img src="images/screen-protector.png" class="card-img-top" alt="Screen Protector">
+                    <div class="card-body">
+                        <h5 class="card-title">Screen Protectors</h5>
+                        <p class="card-text">Keep your screen protected from scratches.</p>
+                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-6 mb-5">
+                <div class="card h-100 text-center shadow-sm">
+                    <img src="images/covers.png" class="card-img-top" alt="Phone Covers">
+                    <div class="card-body">
+                        <h5 class="card-title">Covers</h5>
+                        <p class="card-text">Stylish and durable covers for your phone.</p>
+                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-6 mb-5">
+                <div class="card h-100 text-center shadow-sm">
+                    <img src="images/earbuds.png" class="card-img-top" alt="Earbuds">
+                    <div class="card-body">
+                        <h5 class="card-title">Earbuds</h5>
+                        <p class="card-text">Compact and wireless earbuds for on-the-go.</p>
+                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-6 mb-5">
+                <div class="card h-100 text-center shadow-sm">
+                    <img src="images/headphones.png" class="card-img-top" alt="Headphones">
+                    <div class="card-body">
+                        <h5 class="card-title">Headphones</h5>
+                        <p class="card-text">Experience immersive sound with our headphones.</p>
+                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    
- 
+    </div>
+</section>
+<!--end services-->
 
 
     <!----footer section-->
-    <footer class="full-footer">
+    <footer class="full-footer pt-4">
         <div class="container top-footer p-md-3 p-1">
-            <div class="row">
-                <div class="col-md-3 pl-4 pr-4">
-                    <img class="img-fluid" src="images/logo1nbg.png" alt="Logo" width="100rem">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <a href="#">Read
-                            more..</a></p>
+            <div class="row text-center">
+                <div class="col-6 col-md-4 pr-4 pb-2">
+                    <img class="img-fluid" id="footer-logo" src="images/logo1nbg.png" alt="Logo">
+                    <a href="">link 1</a> <br>
+                    <a href="">link 1</a> <br>
+                    <a href="">link 1</a> <br>
                 </div>
-                <div class="col-md-3 pl-4 pr-4">
+                <div class="col-6 col-md-4 pl-4 pr-4 pb-2">
                     <h3>Important Links</h3>
                     <a href="">link 1</a> <br>
                     <a href="">link 1</a> <br>
                     <a href="">link 1</a> <br>
                     <a href="">link 1</a> <br>
-
                 </div>
-                <div class="col-md-3 pl-4 pr-4">
-                    <h3>Our Services</h3>
-                    <a href="">link 1</a> <br>
-                    <a href="">link 1</a> <br>
-                    <a href="">link 1</a> <br>
-                    <a href="">link 1</a> <br>
-
-
-                </div>
-                <div class="col-md-3 pl-4 pr-4">
-                    <h3>Contact Us</h3>
-                    <a class="p-1" href="tel:+254703988783"><i class="fa-solid fa-phone mx-2"></i> +254703988783</a>
-                    <br>
-                    <a class="p-1" href="mailto:cephkip@gmail.com"><i class="fa-solid fa-envelope mx-2"></i>
-                        cephkip@gmail.com</a><br>
-
-                    <div class="socials">
-                        <a href="#"><i class="fa-brands fa-2x fa-facebook-f mx-2"></i></i></a>
-                        <a href="#"><i class="fa-brands fa-2x fa-x-twitter mx-2"></i></a>
-                        <a href="#"> <i class="fa-brands fa-2x fa-instagram mx-2"></i></a>
-                    </div>
+                <div class="col-md-4 col-12 pl-4 pr-4 pb-2">
                     <div class="embed-responsive embed-responsive-16by9 embed-responsive-mt-5 mt-3 p-2">
                         <iframe class="embed-responsive-item"
                             src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4080.067954975282!2d34.99636082257824!3d1.0227116321531886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x178227aef28b1955%3A0xa912676d72f0e363!2sKIP&#39;SCOMM!5e0!3m2!1sen!2suk!4v1728480850111!5m2!1sen!2suk"
@@ -146,16 +289,26 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
+        <div class="row pt-5 pb-5">
+            <div class="col-12 text-center">
+                <div class="socials">
+                    <a class="p-1" href="tel:+254703988783"><i class="fa-solid fa-phone mx-2"></i></a>
+                    <a class="p-1" href="mailto:cephkip@gmail.com"><i class="fa-solid fa-envelope mx-2"></i></a>
+                    <a class="p-1" href=""><i class="fa-brands fa-facebook-f mx-2"></i></i></a>
+                    <a class="p-1" href="#"><i class="fa-brands fa-x-twitter mx-2"></i></a>
+                    <a class="p-1" href="#"> <i class="fa-brands fa-instagram mx-2"></i></a>
+                </div>
+            </div>
+        </div>
 
 
         <div class="container-fluid bottom-footer pt-2">
             <div class="row">
                 <div class="col-12 text-center">
                     <p>
-                    <p>KIPSFOUNDRY 2024 &copy;. All rights reserved.</p>
+                    <p>KIPSCOM FOUNDRY 2024 &copy;. All rights reserved.</p>
                     </p>
                 </div>
             </div>
@@ -164,9 +317,10 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="Boostrap/js/jquery-3.3.1.slim.min.js"></script>
-    <script src="Boostrap/js/popper.min.js"></script>
-    <script src="Boostrap/js/bootstrap.min.js"></script>
+    <script src="Bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="Bootstrap/js/popper.min.js"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+    <script src="Javascript/functions.js"></script>
 </body>
 
 </html>
