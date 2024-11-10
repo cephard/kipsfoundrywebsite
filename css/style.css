@@ -91,11 +91,12 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     padding: 0.2rem;
+    font-size: clamp(1rem, 3vw, 1.25rem);
+
 }
 
 .socials a:hover {
     color: var(--pink-color);
-    text-decoration: none;
 }
 
 .top-footer p {
@@ -104,11 +105,18 @@ nav ul li a {
 
 .top-footer a {
     color: var(--dark-text);
-    font-weight: 600;
+    font-size: clamp(0.5rem, 3vw, 1rem);
+}
+
+.top-footer a:hover {
+    color: var(--pink-color);
+    text-decoration: none;
 }
 
 .top-footer h3 {
     color: white;
+    font-size: clamp(1rem, 3vw, 1.25rem);
+
 }
 
 
@@ -128,8 +136,8 @@ nav ul li a {
 }
 
 #footer-logo {
-    max-width: clamp(100px, 12vw, 2000px); /* Minimum 100px, scales with viewport, maximum 150px */
-    height: auto; /* Maintains aspect ratio */
+    max-width: clamp(100px, 12vw, 2000px);
+    height: auto;
 }
 
 /*footer end*/
