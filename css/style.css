@@ -355,12 +355,9 @@ nav ul li a {
 }
 
 .about-us-detail img,
-.our-team-section img,
 .our-team {
     border-radius: 16px;
-
 }
-
 
 .our-team {
     margin-bottom: 50px;
@@ -384,9 +381,14 @@ nav ul li a {
 
 .our-team-section img {
     width: 100%;
-    align-self: center;
-    padding-bottom: 5%;
+    height: 70%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+margin-bottom: 15px;
 }
+
 
 .our-team-section p {
     color: var(--pink-color);
