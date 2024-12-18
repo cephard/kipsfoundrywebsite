@@ -340,8 +340,11 @@ nav ul li a {
 
 
 .testimonial-section img {
+    object-fit: cover;
+    height: 200px;
+    width: 200px !important;
     border-radius: 50%;
-
+    object-position: top;
 }
 
 /*about us page*/
